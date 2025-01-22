@@ -19,5 +19,8 @@ Este projeto é uma aplicação para sorteios de amigo secreto, desenvolvida com
 - **CSS**: Estilização da interface.
 - **JavaScript**: Lógica de programação.
 
+## Exemplo de uso
+![Exemplo de uso da aplicação](Projeto/assets/exemplo-de-uso.png)
+
 ## Contribuições 
 Contribuições são sempre bem-vindas! Se você tem sugestões de melhorias, encontrou algum bug ou simplesmente quer dizer "olá 👋🏽", sinta-se à vontade para abrir uma issue ou enviar um pull request.
