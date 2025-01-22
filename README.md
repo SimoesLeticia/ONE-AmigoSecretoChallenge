@@ -12,6 +12,7 @@ Este projeto é uma aplicação para sorteios de amigo secreto, desenvolvida com
 - **Validações**:
 	- Garante que o campo de entrada não esteja vazio.
 	- Exige pelo menos três nomes na lista antes de realizar o sorteio.
+ 	- Verifica se o nome inserido já foi adicionado à lista, independentemente de letras maiúsculas ou minúsculas.
 
 ## Tecnologias Utilizadas
 - **HTML**: Estrutura da aplicação.
