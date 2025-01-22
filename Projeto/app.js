@@ -2,11 +2,17 @@
 
 let amigos = [];
 
+function validarNome(nome) {    
+    let regex = /^[A-Za-zÀ-ÖØ-öø-ÿ' -]+$/;
+    return regex.test(nome.trim());
+}
+
 function adicionarAmigo() {
     const nome = document.getElementById("amigo").value.trim();
     let nomeNormalizado = nome.toLowerCase();
-    if (!nome) {
-        alert("Por favor, insira um nome válido!");
+    
+    if (!validarNome(nome)) {
+        alert("Por favor, insira um nome válido! Nomes não podem conter números, caracteres especiais ou estar em branco.");
         return;
     }
 
