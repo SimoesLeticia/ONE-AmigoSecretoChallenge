@@ -16,6 +16,7 @@ Você pode acessar o projeto através deste link: [Acessar o projeto](https://on
 	- Garante que o campo de entrada não esteja vazio.
 	- Exige pelo menos três nomes na lista antes de realizar o sorteio.
  	- Verifica se o nome inserido já foi adicionado à lista, independentemente de letras maiúsculas ou minúsculas.
+  	- Impede a adição de nomes inválidos, como aqueles contendo números ou caracteres especiais.
 
 ## Tecnologias Utilizadas
 - **HTML**: Estrutura da aplicação.
