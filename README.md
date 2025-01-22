@@ -1,6 +1,6 @@
 # ONE - Amigo Secreto Challenge
 
-## Sobre o repositório:
+## Sobre o repositório
 Este projeto é uma aplicação para sorteios de amigo secreto, desenvolvida como parte do curso **Iniciante em Programação - Turma G8**, do programa Oracle Next Education (ONE). A aplicação permite adicionar nomes a uma lista e realizar sorteios aleatórios para determinar o "amigo secreto".
 
 ## Funcionalidades
@@ -12,6 +12,7 @@ Este projeto é uma aplicação para sorteios de amigo secreto, desenvolvida com
 - **Validações**:
 	- Garante que o campo de entrada não esteja vazio.
 	- Exige pelo menos três nomes na lista antes de realizar o sorteio.
+ 	- Verifica se o nome inserido já foi adicionado à lista, independentemente de letras maiúsculas ou minúsculas.
 
 ## Tecnologias Utilizadas
 - **HTML**: Estrutura da aplicação.
